@@ -3,7 +3,7 @@
 //  FlashCards
 //
 //  Created by Lou Franco and Eitan Mendelowitz.
-//  Copyright Lou Franco and Eitan Mendelowitz 2013. All rights reserved.
+//  Copyright Lou Franco and Eitan Mendelowitz 2013. See repository license.
 //
 
 

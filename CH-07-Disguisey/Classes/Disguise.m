@@ -3,7 +3,7 @@
 //  Disguisey
 //
 //  Created by Lou Franco and Eitan Mendelowitz.
-//  Copyright 2013 Lou Franco and Eitan Mendelowitz. All rights reserved.
+//  Copyright 2013 Lou Franco and Eitan Mendelowitz. See repository license.
 //
 
 #import "Disguise.h"

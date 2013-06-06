@@ -3,7 +3,7 @@
 //  Parkinator
 //
 //  Created by Lou Franco and Eitan Mendelowitz.
-//  Copyright (c) 2013 Lou Franco and Eitan Mendelowitz. All rights reserved.
+//  Copyright (c) 2013 Lou Franco and Eitan Mendelowitz. See repository license.
 //
 
 

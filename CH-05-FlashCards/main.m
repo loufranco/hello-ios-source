@@ -3,7 +3,7 @@
 //  FlashCards
 //
 //  Created by Louis Franco and Eitan Mendelowitz.
-//  Copyright __MyCompanyName__ 2010. All rights reserved.
+//  Copyright Lou Franco and Eitan Mendelowitz 2013. See repository license.
 //
 
 #import <UIKit/UIKit.h>
