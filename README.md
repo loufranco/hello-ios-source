@@ -1,5 +1,5 @@
 hello-ios-source
 ================
-The source code for *Hello! iOS" by Lou Franco and Eitan Mendelowitz
+The source code for [*Hello! iOS Development*](http://manning.com/franco) by Lou Franco and Eitan Mendelowitz
 
-http://manning.com/franco
+
