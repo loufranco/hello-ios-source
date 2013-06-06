@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		992F6A3A164C6AFF000F733F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 992F6A39164C6AFF000F733F /* Default-568h@2x.png */; };
+		9A39D0CB14FA1A5100186D62 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A39D0CA14FA1A5100186D62 /* UIKit.framework */; };
+		9A39D0CD14FA1A5100186D62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A39D0CC14FA1A5100186D62 /* Foundation.framework */; };
+		9A39D0CF14FA1A5100186D62 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A39D0CE14FA1A5100186D62 /* CoreGraphics.framework */; };
+		9A39D0D514FA1A5100186D62 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A39D0D314FA1A5100186D62 /* InfoPlist.strings */; };
+		9A39D0D714FA1A5100186D62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A39D0D614FA1A5100186D62 /* main.m */; };
+		9A39D0DB14FA1A5100186D62 /* DIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A39D0DA14FA1A5100186D62 /* DIAppDelegate.m */; };
+		9A39D0DE14FA1A5100186D62 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A39D0DC14FA1A5100186D62 /* MainStoryboard.storyboard */; };
+		9A39D0E114FA1A5100186D62 /* DIFaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A39D0E014FA1A5100186D62 /* DIFaceViewController.m */; };
+		9A39D0E814FA1A5100186D62 /* DIDisguiseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A39D0E714FA1A5100186D62 /* DIDisguiseViewController.m */; };
+		9AE1003314FB791000DD6D9D /* tab-facial-hair.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AE1003014FB791000DD6D9D /* tab-facial-hair.png */; };
+		9AE1003414FB791000DD6D9D /* tab-tattoo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AE1003114FB791000DD6D9D /* tab-tattoo.png */; };
+		9AE1003514FB791000DD6D9D /* tab-wig-hat.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AE1003214FB791000DD6D9D /* tab-wig-hat.png */; };
+		9AE1003914FB797800DD6D9D /* tab-face.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AE1003814FB797800DD6D9D /* tab-face.png */; };
+		9AE1003D14FB7EE500DD6D9D /* facial-hair-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AE1003A14FB7EE500DD6D9D /* facial-hair-01.png */; };
+		9AE1003E14FB7EE500DD6D9D /* facial-hair-02.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AE1003B14FB7EE500DD6D9D /* facial-hair-02.png */; };
+		9AE1003F14FB7EE500DD6D9D /* facial-hair-03.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AE1003C14FB7EE500DD6D9D /* facial-hair-03.png */; };
+		9AE1004314FB7EEE00DD6D9D /* wig-hat-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AE1004014FB7EEE00DD6D9D /* wig-hat-01.png */; };
+		9AE1004414FB7EEE00DD6D9D /* wig-hat-02.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AE1004114FB7EEE00DD6D9D /* wig-hat-02.png */; };
+		9AE1004514FB7EEE00DD6D9D /* wig-hat-03.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AE1004214FB7EEE00DD6D9D /* wig-hat-03.png */; };
+		9AE1004F14FD834600DD6D9D /* DIDisguiseElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE1004E14FD834600DD6D9D /* DIDisguiseElement.m */; };
+		9AE1005214FD849700DD6D9D /* DIDisguise.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE1005114FD849700DD6D9D /* DIDisguise.m */; };
+		9AE1005514FD88D000DD6D9D /* DIFaceImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE1005414FD88D000DD6D9D /* DIFaceImageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		992F6A39164C6AFF000F733F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		9A39D0C614FA1A5100186D62 /* Disguisey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Disguisey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A39D0CA14FA1A5100186D62 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9A39D0CC14FA1A5100186D62 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9A39D0CE14FA1A5100186D62 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9A39D0D214FA1A5100186D62 /* Disguisey-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Disguisey-Info.plist"; sourceTree = "<group>"; };
+		9A39D0D414FA1A5100186D62 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9A39D0D614FA1A5100186D62 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A39D0D814FA1A5100186D62 /* Disguisey-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Disguisey-Prefix.pch"; sourceTree = "<group>"; };
+		9A39D0D914FA1A5100186D62 /* DIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DIAppDelegate.h; sourceTree = "<group>"; };
+		9A39D0DA14FA1A5100186D62 /* DIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DIAppDelegate.m; sourceTree = "<group>"; };
+		9A39D0DD14FA1A5100186D62 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		9A39D0DF14FA1A5100186D62 /* DIFaceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DIFaceViewController.h; sourceTree = "<group>"; };
+		9A39D0E014FA1A5100186D62 /* DIFaceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DIFaceViewController.m; sourceTree = "<group>"; };
+		9A39D0E614FA1A5100186D62 /* DIDisguiseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DIDisguiseViewController.h; sourceTree = "<group>"; };
+		9A39D0E714FA1A5100186D62 /* DIDisguiseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DIDisguiseViewController.m; sourceTree = "<group>"; };
+		9AE1003014FB791000DD6D9D /* tab-facial-hair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-facial-hair.png"; sourceTree = "<group>"; };
+		9AE1003114FB791000DD6D9D /* tab-tattoo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-tattoo.png"; sourceTree = "<group>"; };
+		9AE1003214FB791000DD6D9D /* tab-wig-hat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-wig-hat.png"; sourceTree = "<group>"; };
+		9AE1003814FB797800DD6D9D /* tab-face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-face.png"; sourceTree = "<group>"; };
+		9AE1003A14FB7EE500DD6D9D /* facial-hair-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facial-hair-01.png"; sourceTree = "<group>"; };
+		9AE1003B14FB7EE500DD6D9D /* facial-hair-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facial-hair-02.png"; sourceTree = "<group>"; };
+		9AE1003C14FB7EE500DD6D9D /* facial-hair-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facial-hair-03.png"; sourceTree = "<group>"; };
+		9AE1004014FB7EEE00DD6D9D /* wig-hat-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wig-hat-01.png"; sourceTree = "<group>"; };
+		9AE1004114FB7EEE00DD6D9D /* wig-hat-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wig-hat-02.png"; sourceTree = "<group>"; };
+		9AE1004214FB7EEE00DD6D9D /* wig-hat-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wig-hat-03.png"; sourceTree = "<group>"; };
+		9AE1004D14FD834600DD6D9D /* DIDisguiseElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIDisguiseElement.h; sourceTree = "<group>"; };
+		9AE1004E14FD834600DD6D9D /* DIDisguiseElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIDisguiseElement.m; sourceTree = "<group>"; };
+		9AE1005014FD849700DD6D9D /* DIDisguise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIDisguise.h; sourceTree = "<group>"; };
+		9AE1005114FD849700DD6D9D /* DIDisguise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIDisguise.m; sourceTree = "<group>"; };
+		9AE1005314FD88D000DD6D9D /* DIFaceImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIFaceImageView.h; sourceTree = "<group>"; };
+		9AE1005414FD88D000DD6D9D /* DIFaceImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIFaceImageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A39D0C314FA1A5100186D62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A39D0CB14FA1A5100186D62 /* UIKit.framework in Frameworks */,
+				9A39D0CD14FA1A5100186D62 /* Foundation.framework in Frameworks */,
+				9A39D0CF14FA1A5100186D62 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A39D0BB14FA1A5100186D62 = {
+			isa = PBXGroup;
+			children = (
+				9A39D0D014FA1A5100186D62 /* Disguisey */,
+				9A39D0C914FA1A5100186D62 /* Frameworks */,
+				9A39D0C714FA1A5100186D62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A39D0C714FA1A5100186D62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A39D0C614FA1A5100186D62 /* Disguisey.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A39D0C914FA1A5100186D62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A39D0CA14FA1A5100186D62 /* UIKit.framework */,
+				9A39D0CC14FA1A5100186D62 /* Foundation.framework */,
+				9A39D0CE14FA1A5100186D62 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A39D0D014FA1A5100186D62 /* Disguisey */ = {
+			isa = PBXGroup;
+			children = (
+				9A39D0D914FA1A5100186D62 /* DIAppDelegate.h */,
+				9A39D0DA14FA1A5100186D62 /* DIAppDelegate.m */,
+				9A39D0DC14FA1A5100186D62 /* MainStoryboard.storyboard */,
+				9A39D0DF14FA1A5100186D62 /* DIFaceViewController.h */,
+				9A39D0E014FA1A5100186D62 /* DIFaceViewController.m */,
+				9A39D0E614FA1A5100186D62 /* DIDisguiseViewController.h */,
+				9A39D0E714FA1A5100186D62 /* DIDisguiseViewController.m */,
+				9AE1003A14FB7EE500DD6D9D /* facial-hair-01.png */,
+				9AE1003B14FB7EE500DD6D9D /* facial-hair-02.png */,
+				9AE1003C14FB7EE500DD6D9D /* facial-hair-03.png */,
+				9AE1004014FB7EEE00DD6D9D /* wig-hat-01.png */,
+				9AE1004114FB7EEE00DD6D9D /* wig-hat-02.png */,
+				9AE1004214FB7EEE00DD6D9D /* wig-hat-03.png */,
+				9AE1003814FB797800DD6D9D /* tab-face.png */,
+				9AE1003014FB791000DD6D9D /* tab-facial-hair.png */,
+				9AE1003114FB791000DD6D9D /* tab-tattoo.png */,
+				9AE1003214FB791000DD6D9D /* tab-wig-hat.png */,
+				9A39D0D114FA1A5100186D62 /* Supporting Files */,
+				9AE1004D14FD834600DD6D9D /* DIDisguiseElement.h */,
+				9AE1004E14FD834600DD6D9D /* DIDisguiseElement.m */,
+				9AE1005014FD849700DD6D9D /* DIDisguise.h */,
+				9AE1005114FD849700DD6D9D /* DIDisguise.m */,
+				9AE1005314FD88D000DD6D9D /* DIFaceImageView.h */,
+				9AE1005414FD88D000DD6D9D /* DIFaceImageView.m */,
+			);
+			path = Disguisey;
+			sourceTree = "<group>";
+		};
+		9A39D0D114FA1A5100186D62 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				992F6A39164C6AFF000F733F /* Default-568h@2x.png */,
+				9A39D0D214FA1A5100186D62 /* Disguisey-Info.plist */,
+				9A39D0D314FA1A5100186D62 /* InfoPlist.strings */,
+				9A39D0D614FA1A5100186D62 /* main.m */,
+				9A39D0D814FA1A5100186D62 /* Disguisey-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A39D0C514FA1A5100186D62 /* Disguisey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A39D0EF14FA1A5100186D62 /* Build configuration list for PBXNativeTarget "Disguisey" */;
+			buildPhases = (
+				9A39D0C214FA1A5100186D62 /* Sources */,
+				9A39D0C314FA1A5100186D62 /* Frameworks */,
+				9A39D0C414FA1A5100186D62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Disguisey;
+			productName = Disguisey;
+			productReference = 9A39D0C614FA1A5100186D62 /* Disguisey.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A39D0BD14FA1A5100186D62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 9A39D0C014FA1A5100186D62 /* Build configuration list for PBXProject "Disguisey" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9A39D0BB14FA1A5100186D62;
+			productRefGroup = 9A39D0C714FA1A5100186D62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A39D0C514FA1A5100186D62 /* Disguisey */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A39D0C414FA1A5100186D62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A39D0D514FA1A5100186D62 /* InfoPlist.strings in Resources */,
+				9A39D0DE14FA1A5100186D62 /* MainStoryboard.storyboard in Resources */,
+				9AE1003314FB791000DD6D9D /* tab-facial-hair.png in Resources */,
+				9AE1003414FB791000DD6D9D /* tab-tattoo.png in Resources */,
+				9AE1003514FB791000DD6D9D /* tab-wig-hat.png in Resources */,
+				9AE1003914FB797800DD6D9D /* tab-face.png in Resources */,
+				9AE1003D14FB7EE500DD6D9D /* facial-hair-01.png in Resources */,
+				9AE1003E14FB7EE500DD6D9D /* facial-hair-02.png in Resources */,
+				9AE1003F14FB7EE500DD6D9D /* facial-hair-03.png in Resources */,
+				9AE1004314FB7EEE00DD6D9D /* wig-hat-01.png in Resources */,
+				9AE1004414FB7EEE00DD6D9D /* wig-hat-02.png in Resources */,
+				9AE1004514FB7EEE00DD6D9D /* wig-hat-03.png in Resources */,
+				992F6A3A164C6AFF000F733F /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A39D0C214FA1A5100186D62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A39D0D714FA1A5100186D62 /* main.m in Sources */,
+				9A39D0DB14FA1A5100186D62 /* DIAppDelegate.m in Sources */,
+				9A39D0E114FA1A5100186D62 /* DIFaceViewController.m in Sources */,
+				9A39D0E814FA1A5100186D62 /* DIDisguiseViewController.m in Sources */,
+				9AE1004F14FD834600DD6D9D /* DIDisguiseElement.m in Sources */,
+				9AE1005214FD849700DD6D9D /* DIDisguise.m in Sources */,
+				9AE1005514FD88D000DD6D9D /* DIFaceImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9A39D0D314FA1A5100186D62 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A39D0D414FA1A5100186D62 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9A39D0DC14FA1A5100186D62 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A39D0DD14FA1A5100186D62 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A39D0ED14FA1A5100186D62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9A39D0EE14FA1A5100186D62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A39D0F014FA1A5100186D62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Disguisey/Disguisey-Prefix.pch";
+				INFOPLIST_FILE = "Disguisey/Disguisey-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9A39D0F114FA1A5100186D62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Disguisey/Disguisey-Prefix.pch";
+				INFOPLIST_FILE = "Disguisey/Disguisey-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A39D0C014FA1A5100186D62 /* Build configuration list for PBXProject "Disguisey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A39D0ED14FA1A5100186D62 /* Debug */,
+				9A39D0EE14FA1A5100186D62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A39D0EF14FA1A5100186D62 /* Build configuration list for PBXNativeTarget "Disguisey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A39D0F014FA1A5100186D62 /* Debug */,
+				9A39D0F114FA1A5100186D62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A39D0BD14FA1A5100186D62 /* Project object */;
+}
