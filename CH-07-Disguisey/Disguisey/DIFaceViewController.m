@@ -90,14 +90,7 @@ didFinishPickingMediaWithInfo:(NSDictionary *)info
             el.image.size.width, el.image.size.height);
     imageView.center = el.point;
 }
- 	
-/*
- 	
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    self.faceImage.faceViewController = self; 
-} 	
-*/
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.faceImage.faceViewController = self; 
@@ -119,8 +112,6 @@ didFinishPickingMediaWithInfo:(NSDictionary *)info
 - (void)viewDidUnload
 {
     [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
 }
 
 - (void)viewWillAppear:(BOOL)animated

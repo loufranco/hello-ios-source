@@ -18,14 +18,7 @@
     // Release any cached data, images, etc that aren't in use.
 }
 
-/*
-  
--(IBAction)disguiseElementChosen:(id)sender
-{
-    self.tabBarController.selectedIndex = 0;
-}
 
- */
 -(IBAction)disguiseElementChosen:(id)sender
 {
 	self.disguise.lastChosenImage = ((UIButton*)sender).currentImage;
@@ -48,8 +41,6 @@
 - (void)viewDidUnload
 {
     [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
 }
 
 - (void)viewWillAppear:(BOOL)animated

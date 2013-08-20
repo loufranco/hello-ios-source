@@ -15,8 +15,8 @@
    <UIImagePickerControllerDelegate, UINavigationControllerDelegate>  
 
 
-@property(retain, nonatomic) IBOutlet DIFaceImageView* faceImage;
-@property(retain, nonatomic) DIDisguise* disguise;
+@property(strong, nonatomic) IBOutlet DIFaceImageView* faceImage;
+@property(strong, nonatomic) DIDisguise* disguise;
 
 
  	
